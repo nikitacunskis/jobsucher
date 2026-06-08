@@ -24,6 +24,8 @@ The canonical source files are:
 - `public/profile.json`
 - `public/jobs.json`
 
+Scanning LinkedIn jobs requires Playwright MCP browser automation. The scanner output should be saved back into `public/jobs.json`, which remains the canonical Jobsucher dataset.
+
 On container startup the app:
 
 1. Runs Laravel migrations.
